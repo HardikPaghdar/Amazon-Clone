@@ -1,0 +1,75 @@
+.payment{
+    background-color: #53354a;
+    color: white;
+}
+
+.payment__container > h1{
+    text-align: center;
+    padding: 10px;
+    font-weight: 400;
+    background-color: #ffe2e2;
+    border-bottom: 1px solid #2b2e4a;
+    font-family: 'Merriweather', serif;
+    color: #2b2e4a;
+}
+
+.payment__container > h1 a{
+    text-decoration: none;
+}
+
+.payment__section{
+   display: flex;
+   padding: 20px;
+   margin: 0 20px;
+   border-bottom: 1px solid  #2b2e4a;
+}
+
+.payment__title{
+    flex: 0.2;
+}
+
+.payment__address, .payment__items, .payment__details{
+    flex: 0.8;
+}
+
+.payment__itemSection{
+    background-color: white;
+}
+
+.payment__details >form{
+    max-width: 440px;
+}
+
+h4{
+    padding-bottom: 20px;
+}
+
+.payment__details > form > div > button {
+    background: #f0c14b;
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+    font-weight: bolder;
+    margin-top: 10px;
+    border-color: #903749;
+    color: #53354a;
+    cursor: pointer;
+}
+
+.StripeElement{
+    box-sizing: border-box;
+
+    height: 40px;
+    margfirebase.jsonin-bottom: 30px;
+    padding: 10px 12px;
+  
+    border: 1px solid transparent;
+    border-radius: 4px;
+    background-color: white;
+  
+    box-shadow: 0 1px 3px 0 #e6ebf1;
+    -webkit-transition: box-shadow 150ms ease;
+    transition: box-shadow 150ms ease;
+}
+
